@@ -58,8 +58,11 @@ noBtn.addEventListener("mouseover", () => {
 // });
 
 // YES is clicked
+const music = document.getElementById("bg-music");
 
 yesBtn.addEventListener("click", () => {
+    music.play(); // 🔥 start romantic music
+    
     title.textContent = "Yippeeee!";
 
     catImg.src = "cat_dance.gif";
